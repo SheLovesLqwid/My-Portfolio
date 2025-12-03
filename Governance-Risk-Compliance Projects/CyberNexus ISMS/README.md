@@ -82,7 +82,8 @@ A **production-ready** Information Security Management System (ISMS) web applica
 
 ```bash
 # Clone and setup (if from repository)
-git clone <repository-url>
+git clone https://github.com/SheLovesLqwid/Portfolio-CyberNexus-ISMS.git
+# Rename the folder cybernexus-isms
 cd cybernexus-isms
 
 # Backend setup
@@ -135,8 +136,8 @@ node utils/seedData.js
 ### **🔐 Authentication**
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| `POST` | `/api/auth/register` | User registration | ❌ |
-| `POST` | `/api/auth/login` | User login | ❌ |
+| `POST` | `/api/auth/register` | User registration | ✅ |
+| `POST` | `/api/auth/login` | User login | ✅ |
 | `GET` | `/api/auth/profile` | Get user profile | ✅ |
 | `PUT` | `/api/auth/profile` | Update profile | ✅ |
 
